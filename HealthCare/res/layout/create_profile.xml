@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/backgroung">
+
+<LinearLayout
+    android:layout_width="314dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" 
+        android:layout_margin="10dp"
+        android:background="#CEF6F5">
+    
+    <ImageView
+        android:id="@+id/imageViewCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="14dp"        
+        android:contentDescription="@drawable/person"
+        android:src="@drawable/person" />
+
+        
+    <TextView
+        android:id="@+id/textCreateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/Create_Profile"        
+        android:textSize="20sp" />
+    
+    
+</LinearLayout>
+
+    <ScrollView 
+      android:id="@+id/scrollViewN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#A9E2F3"
+      android:layout_margin="10dp"
+      android:layout_gravity="center" >
+      
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/name"
+            android:src="@drawable/name" />
+
+	    <EditText
+	        android:id="@+id/createUserName"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:layout_marginLeft="5dp"
+	        android:ems="10"
+	        android:hint="@string/Name" />
+
+	 </LinearLayout>
+	 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageFname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/fname"
+            android:src="@drawable/fname" />
+
+	    <EditText
+	        android:id="@+id/createFname"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.40"
+	        android:layout_marginLeft="5dp"
+	        android:ems="10"
+	        android:hint="@string/Fname" />
+
+	 </LinearLayout>
+	 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageMname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/mname"
+            android:src="@drawable/mname" />
+
+	    <EditText
+	        android:id="@+id/createMname"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:layout_marginLeft="5dp"
+	        android:ems="10"
+	        android:hint="@string/Mname" />
+
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+	    <ImageView
+	        android:id="@+id/imageAge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/age"
+	        android:src="@drawable/age" />
+
+
+	    <EditText
+	        android:id="@+id/createAge"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/age" />
+	 </LinearLayout>
+	 
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <ImageView
+        android:id="@+id/imageBloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:contentDescription="@drawable/blood"
+        android:src="@drawable/blood" />
+
+
+	    <EditText
+	        android:id="@+id/createBloodGroup"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/blood_group" />
+	 </LinearLayout>
+	 
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageEyeColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/eye"
+            android:src="@drawable/eye" />
+
+	    <EditText
+	        android:id="@+id/createEyeColor"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:layout_marginLeft="5dp"
+	        android:ems="10"
+	        android:hint="@string/EyeColor" />
+
+	 </LinearLayout>   
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <ImageView
+	        android:id="@+id/imageWeight"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/weight"
+	        android:src="@drawable/weight" />
+
+
+	    <EditText
+	        android:id="@+id/createWeight"
+	        android:inputType="numberSigned"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/Weight" />
+	 </LinearLayout>
+	 
+                     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <ImageView
+	        android:id="@+id/imageHeight"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/height"
+	        android:src="@drawable/height" />
+
+	    <EditText
+	        android:id="@+id/createHeight"
+	        android:inputType="number"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/Height" />
+	 </LinearLayout>
+	 
+     
+                          
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <ImageView
+        android:id="@+id/imageDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/dob"
+        android:src="@drawable/dob" />
+
+
+	    <EditText
+	        android:id="@+id/createDateOfBirth"
+	        android:inputType="date"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/Date_Of_Birth" 
+	        android:layout_marginLeft="5dp"/>
+	 </LinearLayout>
+	 
+                               
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    	    
+	    <ImageView
+        android:id="@+id/imageSpecialNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/sp"
+        android:src="@drawable/sp" />
+
+
+	    <EditText
+	        android:id="@+id/createSpecialComment"
+	        android:inputType="text"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/Specified_Problem" />
+	 </LinearLayout>
+        
+    </LinearLayout>
+     </ScrollView>
+    
+ <Button
+     android:id="@+id/Save"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:ems="5"
+     android:text="@string/Save"
+     android:drawableLeft="@drawable/save"    
+     android:layout_gravity="center"    
+     android:layout_marginTop="5dp"
+     android:layout_marginBottom="20dp"
+     android:onClick="save"
+     android:background="@drawable/rounded_blue"
+     android:textColor="@android:color/holo_blue_dark"/>
+
+
+   </LinearLayout>
+ 
+</ScrollView>
+   
+
+
+
+
