@@ -4,23 +4,25 @@
     <string name="app_name">HealthCare</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="load"></string>
-    <string name="Name">Name</string>
-    <string name="age">Age</string>
-    <string name="blood_group">Blood Group</string>
-    <string name="Date_Of_Birth">Birth Date</string>
-    <string name="Height">Height</string>
-    <string name="Weight">Weight</string>
-    <string name="Save">Save</string>
-    <string name="Specified_Problem">Specific Problem</string>
-    <string name="Create_Profile">Create Profile</string>
-    <string name="update">Update</string>
-    <string name="My_Profile">My_Profile</string>
-    <string name="Fname">Father Name</string>
-    <string name="Mname">Mother Name</string>
-    <string name="EyeColor">Eye Color</string>
     <string name="title_activity_create_profile">CreateProfileActivity</string>
     <string name="title_activity_view_profile">ViewProfileActivity</string>
     <string name="title_activity_map">MapActivity</string>
+    <string name="hospitalId">Hospital ID</string>
+    <string name="hospitalName">Hospital Name</string>
+    <string name="hospitalAddress">Hospital Address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="availablrDoctorName">Available Doctor Name</string>
+    <string name="availableDoctorNumber">Available Doctor Number</string>
+    <string name="hospitalDescription">Hospital Description</string>
+    <string name="save">Save</string>
+    <string name="view_Profile">View Profile</string>
+    <string name="add">Add New Profile</string>
+    
+    <string name="Create_Profile">Create Profile</string>
+    
+     <string name="preview">Preview</string>
+     <string name="takePic">Take a Picture</string>
+    
 
 </resources>
