@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" 
+        android:layout_margin="30dp">
+    
+    <ImageView
+        android:id="@+id/ivNoteCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="14dp"        
+        android:contentDescription="@drawable/addnote"
+        android:src="@drawable/addnote" />
+
+        
+    <TextView
+        android:id="@+id/textNoteCreateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/addnot"        
+        android:textSize="20sp" />
+    
+    
+</LinearLayout>
+
+    <ScrollView 
+      android:id="@+id/scrollView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:layout_gravity="center" >
+      
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/imageNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/note"
+            android:src="@drawable/note" />
+
+	    <EditText
+	        android:id="@+id/etNote"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:layout_marginLeft="5dp"
+	        android:padding="10dp"
+	        android:ems="10"
+	        android:hint="@string/note"
+	        android:inputType="text" />
+
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+ 
+	    <ImageView
+	        android:id="@+id/imageDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/date"
+	        android:src="@drawable/date" />
+
+
+	    <EditText
+	        android:id="@+id/etDateNote"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/date"
+	        android:inputType="date" />
+	 </LinearLayout>
+	 
+      
+                    
+</LinearLayout>    
+
+ </ScrollView>
+     
+ <Button
+     android:id="@+id/Save"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:ems="5"
+     android:onClick="saveNote"
+     android:text="@string/Save"
+     android:drawableLeft="@drawable/save"    
+     android:layout_gravity="center"    
+     android:layout_marginTop="20dp"
+     android:background="@drawable/rounded_blue"
+     android:textColor="@android:color/white"/>
+
+
+   </LinearLayout>
+ 
+
+   
+
+
+
+

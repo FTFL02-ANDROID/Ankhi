@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" 
+        android:layout_margin="30dp">
+    
+    <ImageView
+        android:id="@+id/ivAddVaccine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="14dp"        
+        android:contentDescription="@drawable/vaccination"
+        android:src="@drawable/vaccination" />
+
+        
+    <TextView
+        android:id="@+id/textAddVaccination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/Vaccination_Information"        
+        android:textSize="16sp" />
+    
+    
+</LinearLayout>
+
+    <ScrollView 
+      android:id="@+id/scrollView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:layout_gravity="center" >
+      
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imageVaccineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/vaccine"
+            android:src="@drawable/vaccine" />
+
+	    <TextView
+	        android:id="@+id/tvVaccineName"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:layout_marginLeft="5dp"
+	        android:ems="10"
+	        android:hint="@string/Vaccine_Name" />
+
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+ 
+	    <ImageView
+	        android:id="@+id/imageVaccineDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/date"
+	        android:src="@drawable/date" />
+
+
+	    <TextView
+	        android:id="@+id/createVcDate"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/date" />
+	 </LinearLayout>
+	 
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp">
+	    	    
+	    <ImageView
+        android:id="@+id/imageVaccineTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:contentDescription="@drawable/time"
+        android:src="@drawable/time" />
+
+
+	    <TextView
+	        android:id="@+id/createVcTime"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/time" />
+	 </LinearLayout>
+	 
+    
+	 
+                     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+	    	    
+	    <ImageView
+	        android:id="@+id/imageVaccineDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/description"
+	        android:src="@drawable/description" />
+
+	    <TextView
+	        android:id="@+id/createDescription"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/description" />
+	 </LinearLayout>
+	 
+     
+               
+</LinearLayout>    
+
+ </ScrollView>
+     
+ 
+
+   </LinearLayout>
+ 
+
+   
+
+
+
+

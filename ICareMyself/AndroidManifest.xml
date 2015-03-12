@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ftfl.icaremyself"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    
+    <!-- Accessing camera hardware -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".CreateProfileActivity"
+            android:label="@string/title_activity_profile_create" >
+        </activity>
+        <activity
+            android:name=".CreateDietActivity"
+            android:label="@string/title_activity_create_diet" >
+        </activity>
+        <activity
+            android:name=".ViewDietActivity"
+            android:label="@string/title_activity_view_diet" >
+        </activity>
+        <activity
+            android:name=".CreateDoctorProfileActivity"
+            android:label="@string/title_activity_create_doctor_profile" >
+        </activity>
+        <activity
+            android:name=".ViewDoctorProfileActivity"
+            android:label="@string/title_activity_view_doctor_profile" >
+        </activity>
+        <activity
+            android:name=".CareCenterActivity"
+            android:label="@string/title_activity_care_center" >
+        </activity>
+        <activity
+            android:name=".MedicalHistoryCreateActivity"
+            android:label="@string/title_activity_medical_history_create" >
+        </activity>
+        <activity
+            android:name=".MedicalHistoryViewActivity"
+            android:label="@string/title_activity_medical_history_view" >
+        </activity>
+        <activity
+            android:name=".VaccinationActivity"
+            android:label="@string/title_activity_vaccination" >
+        </activity>
+        <activity
+            android:name=".VaccinationViewActivity"
+            android:label="@string/title_activity_vaccination_view" >
+        </activity>
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/title_activity_add_note" >
+        </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+    </application>
+
+</manifest>

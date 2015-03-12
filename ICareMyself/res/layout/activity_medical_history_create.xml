@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         android:padding="20dp">
+        
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="insertData"
+            android:padding="14dp"
+            android:text="@string/takePhoto"
+            android:textColor="@android:color/background_light"
+            android:drawableLeft="@drawable/cam"
+     		android:background="@drawable/rounded_blue"
+            android:typeface="monospace" />        
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivTakePhoto"
+            android:layout_width="259dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.46"
+            android:contentDescription="@string/takePhoto"
+            android:src="@drawable/capture" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#2d28b4" />
+
+        
+        <ScrollView 
+		      android:id="@+id/scrollView"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_margin="10dp"
+		      android:layout_gravity="center" >
+      
+	    <LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+			    
+    
+    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:background="#c8f4f3" 
+       		    android:layout_marginBottom="10dp" >
+
+        <ImageView
+	            android:id="@+id/imageDrName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@drawable/doctwo"
+	            android:src="@drawable/doctwo" />
+
+	    <EditText
+		        android:id="@+id/etDrName"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.54"
+		        android:layout_marginLeft="5dp"
+		        android:ems="10"
+		        android:hint="@string/Dr_Name" />
+
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:background="#c8f4f3" 
+        		android:layout_marginBottom="10dp" >
+		 
+	    <ImageView
+		        android:id="@+id/imageSpecialist"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"	        
+		        android:contentDescription="@drawable/visiteddate"
+		        android:src="@drawable/visiteddate" />
+
+
+	    <EditText
+		        android:id="@+id/createVisitedDate"
+		        android:inputType="date"
+		        android:layout_width="0dp"
+		    	android:layout_weight="0.65"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:layout_marginLeft="5dp"
+		        android:hint="@string/visited_date" />
+	 </LinearLayout>
+	 
+      
+     <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:background="#c8f4f3" >
+			    	    
+	    <ImageView
+		        android:id="@+id/imageContact"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"       
+		        android:contentDescription="@drawable/purpose"
+		        android:src="@drawable/purpose" />
+
+
+	    <EditText
+		        android:id="@+id/createContact"
+		        android:layout_width="0dp"
+		    	android:layout_weight="0.65"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:layout_marginLeft="5dp"
+		        android:hint="@string/purpose" />	
+	 </LinearLayout>
+	 
+        
+     
+	 
+     
+               
+</LinearLayout>    
+
+ </ScrollView>
+
+
+         <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#2d28b4" />
+         
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="saveMHistory"
+            android:padding="14dp"
+            android:text="@string/save"
+     		android:background="@drawable/rounded_blue"
+            android:drawableLeft="@drawable/save"
+     		android:textColor="@android:color/white"
+            android:typeface="monospace" />
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#81DAF5"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/profile"
+                android:src="@drawable/person" />
+
+            <Button
+                android:id="@+id/profileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc"
+                android:background="#81DAF5"
+                android:onClick="click" />
+            
+        </LinearLayout>    
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/dietButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                style="@style/HomeButton"
+            	android:onClick="click"
+                android:drawableTop="@drawable/diethome"
+                android:gravity="center"
+                android:text="@string/dietchart"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc" 
+                android:background="#deeeeb"
+                android:padding="13dp"/>
+
+            <Button
+                android:id="@+id/vccButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/vaccination"
+                android:gravity="center"
+                android:text="@string/vac_chart"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/HomeButton"
+            	android:onClick="onButtonClicker"
+                android:textColor="#0000cc" 
+                android:background="#deeeeb"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/docprofileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/dr"
+                android:gravity="center"
+                android:text="@string/Doctor_Profile"
+                style="@style/HomeButton"
+           	 	android:onClick="onButtonClicker"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc" 
+                android:background="#d7d8ed"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/medicalhistoryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/history"
+                android:gravity="center"
+                android:text="@string/medical_history"
+                style="@style/HomeButton"
+            	android:onClick="onButtonClicker"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc" 
+                android:background="#d7d8ed"
+                android:padding="10dp"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/galleryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/gallery"
+                android:gravity="center"
+                android:text="@string/gallery"
+                style="@style/HomeButton"
+            	android:onClick="onButtonClicker"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc" 
+                android:background="#fbeff2"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/carecenterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/carecenter"
+                android:gravity="center"
+                android:text="@string/Care_Center"
+                style="@style/HomeButton"
+            	android:onClick="onButtonClicker"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000cc" 
+                 android:background="#fbeff2"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

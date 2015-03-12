@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" 
+        android:layout_margin="20dp">
+    
+    <ImageView
+        android:id="@+id/imageViewDr_Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="14dp"        
+        android:contentDescription="@drawable/drview"
+        android:src="@drawable/drview" />
+
+        
+    <TextView
+        android:id="@+id/textDoctorProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/Doctor_Profile"        
+        android:textSize="20sp" />
+    
+    
+</LinearLayout>
+
+    <ScrollView 
+      android:id="@+id/scrollView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:layout_gravity="center">
+      
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/imageDrNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@drawable/doctor"
+            android:src="@drawable/doctor" />
+
+	    <TextView
+	        android:id="@+id/tvDrName"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.54"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/Dr_Name" />
+
+	 </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+ 
+	    <ImageView
+	        android:id="@+id/specialist"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:contentDescription="@drawable/specialist"
+	        android:src="@drawable/specialist" />
+
+
+	    <TextView
+	        android:id="@+id/viewSpecialist"
+	        android:layout_width="0dp"
+	    	 android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/specialist" />
+	 </LinearLayout>
+	 
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp" >
+	    	    
+	    <ImageView
+        android:id="@+id/imageViewDrContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/contact"
+        android:src="@drawable/contact" />
+
+
+	    <TextView
+	        android:id="@+id/viewContactNumber"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/contact_number" />
+	    
+	     <ImageButton
+            android:id="@+id/imgBtnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="performDCall"
+            android:contentDescription="@drawable/call"
+			android:clickable="true"
+            android:src="@drawable/call" />
+	     
+	     <ImageButton
+            android:id="@+id/imgBtnSms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="performDSms"
+            android:contentDescription="@drawable/sms"
+            android:src="@drawable/sms" />
+	     
+	     <ImageButton
+            android:id="@+id/imgBtnAddContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="performAddContactl"
+            android:contentDescription="@drawable/contactadd"
+            android:src="@drawable/contactadd" />
+	    
+	    
+	 </LinearLayout>
+	 
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp">
+	    	    
+	    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:contentDescription="@drawable/email"
+        android:src="@drawable/email" />
+
+
+	    <TextView
+	        android:id="@+id/viewEmail"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/email" />
+	    
+	     <ImageButton
+            android:id="@+id/imgBtnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="performDEmail"
+            android:contentDescription="@drawable/eml"
+            android:src="@drawable/eml" />
+	     
+	 </LinearLayout>
+	 
+                     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#c8f4f3" 
+        android:layout_marginBottom="10dp">
+	    	    
+	    <ImageView
+        android:id="@+id/imageViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/address"
+        android:src="@drawable/address" />
+
+	    <TextView
+	        android:id="@+id/viewAddress"
+	        android:layout_width="0dp"
+	    	android:layout_weight="0.65"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="5dp"
+	        android:hint="@string/address" />
+	 </LinearLayout>
+	 
+     
+                                
+        
+    </LinearLayout>
+     </ScrollView>
+     
+ 
+   </LinearLayout>
+ 
+
+   
+
+
+
+

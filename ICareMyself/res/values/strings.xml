@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICareMyself</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_profile_create">ProfileCreateActivity</string>
+    <string name="title_activity_create_diet">CreateDietActivity</string>
+    <string name="title_activity_view_diet">ViewDietActivity</string>
+    <string name="title_activity_create_doctor_profile">CreateDoctorProfileActivity</string>
+    <string name="title_activity_view_doctor_profile">ViewDoctorProfileActivity</string>
+    <string name="title_activity_care_center">CareCenterActivity</string>
+    <string name="title_activity_medical_history_create">MedicalHistoryCreateActivity</string>
+    <string name="title_activity_medical_history_view">MedicalHistoryViewActivity</string>
+    <string name="title_activity_vaccination">VaccinationActivity</string>
+    <string name="title_activity_vaccination_view">VaccinationViewActivity</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="general_fragment_text">This is general fragment</string>
+    <string name="vaccination_fragment_text">This is vaccination fragment</string>
+    <string name="growth_fragment_text">This is growth fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="drawer_menu_array">
+        <item>Add New Profile</item>
+        <item>Home</item>
+        <item>Profile Preview</item>
+        <item>Diet Chart Create</item>
+        <item>Diet Chart Preview</item>
+        <item>Create Doctor Profile</item>
+        <item>Create Vaccination</item>
+        <item>Create Medical History</item>
+        <item>General Information</item>
+
+        <!-- <item>create</item> -->
+    </string-array>
+
+    <string name="textWeight">Weight</string>
+    <string name="textName">Name</string>
+    <string name="phone">Phone</string>
+    <string name="textHeight">Height</string>
+    <string name="hintName">enter name</string>
+    <string name="buttonSubmit">SAVE</string>
+    <string name="hintHeight">enter height(cm)</string>
+    <string name="gender">Gender</string>
+    <string name="textCreateProfileHeader"> Create Profile</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textGender">Gender</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="textAge">Age</string>
+    <string name="hintWeight">enter weight(kg)</string>
+    <string name="hintAge">enter age</string>
+    <string name="textBloodGroup">Blood Group</string>
+    <string name="hintBloodGroup">enter blood group</string>
+    <string name="home_text">Welcome</string>
+    <string name="food">Event name</string>
+    <string name="Friday">16/01/2015 Friday</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="menu">Feast menu</string>
+    <string name="Name">Name</string>
+    <string name="Father_Name">Father Name</string>
+    <string name="Mother_Name">Mother Name</string>
+    <string name="Date_Of_Birth">Date Of Birth</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="eye_color">Eye Color</string>
+    <string name="Save">Save</string>
+    <string name="Special_comment">Special Comment</string>
+    <string name="Create_Profile">Create Profile</string>
+    <string name="My_Profile">My Profile</string>
+    <string name="Update">Update</string>
+    <string name="addDailyDiet">Add Your Daily Diet</string>
+    <string name="title_activity_ftflicare_diet_chart_view">ICare</string>
+    <string name="load"></string>
+    <string name="Age">Age</string>
+    <string name="Blood_group">Blood group</string>
+    <string name="home">ICare Home</string>
+    <string name="todayDiet">Diet Chart of The Day</string>
+    <string name="upComingDiet">Upcoming Diet Chart</string>
+    <string name="profile">Create Profile</string>
+    <string name="myProfile">My Profile</string>
+    <string name="save">SAVE</string>
+    <string name="myfeastName">Event name</string>
+    <string name="myfeastMenu">Feast menu</string>
+    <string name="myDietChartHistory">My Diet Chart History</string>
+    <string name="radioAll">All</string>
+    <string name="radioWeek">Week</string>
+    <string name="radioMonth">Month</string>
+    <string name="pickDiet">Pick Diet Date</string>
+    <string name="age">Age</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="dateOfDiet">Date Of Diet</string>
+    <string name="timeOfDiet">Time Of Diet</string>
+    <string name="createDietChart">Create Diet Chart</string>
+    <string name="dietChartHistory">Diet Chart History</string>
+    <string name="patientName">Name</string>
+    <string name="patientFatherName">Father Name</string>
+    <string name="patientMotherName">Mother Name</string>
+    <string name="patientDateOfBirth">Date Of Birth</string>
+    <string name="patientHeight">Height</string>
+    <string name="patientWeight">Weight</string>
+    <string name="eyaColor">Eya Color</string>
+    <string name="bloodGroup">Select Blood Group</string>
+    <string name="patientSpecialComent">Special Coment</string>
+    <string name="spinner">Pick needing Blood Group</string>
+    <string name="Create_Dr_Profile">Create Doctor Profile</string>
+    <string name="Dr_Name">Doctor Name</string>
+    <string name="specialist">Specialist</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="distance">Distance</string>
+    <string name="Doctor_Profile">Doctor Profile</string>
+    <string name="upcoming">Upcoming Diet Chart</string>
+    <string name="visited_date">Visited Date</string>
+    <string name="purpose">Purpose</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="Add_Vaccination">Add Vaccination</string>
+    <string name="Vaccine_Name">Vaccine Name</string>
+    <string name="description">Description</string>
+    <string name="Vaccination_Information">Vaccination Information</string>
+    <string name="Care_Center">Care Center</string>
+    <string name="Care_Center_Name">Care Center Name</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="dietchart">Diet Chart</string>
+    <string name="vac_chart">Vaccination Chart</string>
+    <string name="medical_history">Medical History</string>
+    <string name="gallery">Gallery</string>
+    <string name="history">History</string>
+    <string name="createDiet">Create Diet</string>
+    <string name="note">Note</string>
+    <string name="addnot">Add Important Note</string>
+    <string name="dTtittle1">Diet Today List</string>
+    <string name="dTtittle2">Diet Weekly List</string>
+    <string name="dTtittle3">Diet Chart View </string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+
+</resources>
